@@ -272,7 +272,7 @@ nav a:hover {
 }
 
 .text-about h2 {
-    font-size: 36px;
+    font-size: 2rem;
     font-family: 'agrandir', sans-serif;
     color: #333;
     margin-bottom: 20px;
@@ -411,7 +411,7 @@ nav a:hover {
 
 .portfolio-title {
     font-family: 'agrandir', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 40px;
     color: #333;
@@ -477,7 +477,7 @@ nav a:hover {
 }
 
 .why-choose h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 40px;
     color: #333;
     font-weight: 700;
@@ -539,8 +539,9 @@ nav a:hover {
 .workflow h2 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333;
+    font-family: 'agrandir', sans-serif;
 }
   
 .workflow-steps {
@@ -589,7 +590,7 @@ nav a:hover {
 }
   
 .workflow-steps .step h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'agrandir', sans-serif;
     color: #333;
     margin-bottom: 5px;
@@ -638,7 +639,7 @@ nav a:hover {
 }
   
 .plans h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'agrandir', sans-serif;
     margin-bottom: 40px;
     color: #333;
@@ -720,6 +721,62 @@ nav a:hover {
 .btn-whatsapp:active {
     transform: scale(0.98);
 }
+
+.partners {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.partners .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners h2 {
+    font-size: 2rem;
+    font-family: 'agrandir', sans-serif;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.partner-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.partner-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.partner-item p {
+    margin: 0;
+    font-weight: 500;
+    color: #555;
+    font-size: 1rem;
+}
+
   
 @keyframes fadeInUp {
     to {
@@ -778,6 +835,10 @@ nav a:hover {
         width: 24px;
         height: 24px;
         line-height: 24px;
+    }
+
+    .partners-grid{
+        grid-template-columns: 1fr 1fr;
     }
 
 }
