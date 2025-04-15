@@ -775,6 +775,7 @@ nav a:hover {
     font-weight: 500;
     color: #555;
     font-size: 1rem;
+    font-family: 'agrandir', sans-serif;
 }
 
 .footer {
